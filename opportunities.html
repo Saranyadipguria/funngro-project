@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Opportunities — Funngro</title>
+  <meta name="description" content="Explore project opportunities in a modern Funngro website concept.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="bg-orb orb-one"></div>
+  <div class="bg-orb orb-two"></div>
+
+  <header class="nav">
+    <a class="brand" href="index.html"><span class="brand-mark">F</span><span>Funngro</span></a>
+    <nav>
+      <a href="index.html">Home</a>
+      <a class="active" href="opportunities.html">Opportunities</a>
+      <a href="index.html#how">How it works</a>
+    </nav>
+    <a class="nav-cta" href="#companies">For companies</a>
+  </header>
+
+  <main>
+    <section class="page-hero container reveal">
+      <div>
+        <span class="eyebrow"><span class="dot"></span> PROJECT DISCOVERY</span>
+        <h1>Find work that matches <span>your skills.</span></h1>
+        <p>Browse a clean, focused project marketplace concept built around skills, interests and practical experience.</p>
+      </div>
+      <div class="search-box">
+        <span>⌕</span><input id="search" type="search" placeholder="Search projects, skills..." aria-label="Search projects">
+      </div>
+    </section>
+
+    <section class="filters container reveal">
+      <button class="filter active" data-filter="all">All projects</button>
+      <button class="filter" data-filter="design">Design</button>
+      <button class="filter" data-filter="tech">Technology</button>
+      <button class="filter" data-filter="marketing">Marketing</button>
+      <button class="filter" data-filter="content">Content</button>
+    </section>
+
+    <section class="projects container" id="projects">
+      <article class="project-card reveal" data-category="design" data-title="social media design ui ux">
+        <div class="project-icon pink">✦</div><span class="tag">Design</span>
+        <h3>Social media design kit</h3>
+        <p>Create a reusable visual system for a growing youth-focused brand.</p>
+        <div class="skills"><span>Figma</span><span>UI/UX</span><span>Branding</span></div>
+        <div class="project-bottom"><span>Remote • Flexible</span><a href="#" class="apply">View project →</a></div>
+      </article>
+
+      <article class="project-card reveal" data-category="tech" data-title="python website dashboard development">
+        <div class="project-icon blue">⌘</div><span class="tag">Technology</span>
+        <h3>Build a smart dashboard</h3>
+        <p>Turn a simple data workflow into a responsive dashboard experience.</p>
+        <div class="skills"><span>HTML/CSS</span><span>JavaScript</span><span>Python</span></div>
+        <div class="project-bottom"><span>Remote • Project</span><a href="#" class="apply">View project →</a></div>
+      </article>
+
+      <article class="project-card reveal" data-category="marketing" data-title="instagram marketing campaign">
+        <div class="project-icon orange">↗</div><span class="tag">Marketing</span>
+        <h3>Creator campaign research</h3>
+        <p>Research audiences and turn insights into a simple campaign plan.</p>
+        <div class="skills"><span>Research</span><span>Instagram</span><span>Strategy</span></div>
+        <div class="project-bottom"><span>Hybrid • Flexible</span><a href="#" class="apply">View project →</a></div>
+      </article>
+
+      <article class="project-card reveal" data-category="content" data-title="video content reels editing">
+        <div class="project-icon green">▶</div><span class="tag">Content</span>
+        <h3>Short-form video creator</h3>
+        <p>Plan and edit short videos for a digital-first campaign.</p>
+        <div class="skills"><span>Editing</span><span>Reels</span><span>Storytelling</span></div>
+        <div class="project-bottom"><span>Remote • Creative</span><a href="#" class="apply">View project →</a></div>
+      </article>
+
+      <article class="project-card reveal" data-category="tech" data-title="app testing quality assurance">
+        <div class="project-icon purple">✓</div><span class="tag">Technology</span>
+        <h3>Mobile app testing</h3>
+        <p>Test a new app experience, document issues and share usability feedback.</p>
+        <div class="skills"><span>QA</span><span>Android</span><span>Feedback</span></div>
+        <div class="project-bottom"><span>Remote • Part-time</span><a href="#" class="apply">View project →</a></div>
+      </article>
+
+      <article class="project-card reveal" data-category="design" data-title="presentation graphic design">
+        <div class="project-icon yellow">▣</div><span class="tag">Design</span>
+        <h3>Pitch deck refresh</h3>
+        <p>Give a startup presentation a sharper visual hierarchy and storytelling flow.</p>
+        <div class="skills"><span>Canva</span><span>Slides</span><span>Visuals</span></div>
+        <div class="project-bottom"><span>Remote • Project</span><a href="#" class="apply">View project →</a></div>
+      </article>
+    </section>
+
+    <section class="empty" id="empty">
+      <h3>No matching projects</h3>
+      <p>Try another keyword or choose a different category.</p>
+    </section>
+
+    <section id="companies" class="company-cta container reveal">
+      <div>
+        <span class="eyebrow">FOR COMPANIES</span>
+        <h2>Have a project? <span>Meet the next generation of talent.</span></h2>
+        <p>Share your project requirements and create a practical opportunity for young talent to learn and contribute.</p>
+      </div>
+      <a href="mailto:hello@example.com?subject=Funngro%20Project" class="btn primary">Start a project ↗</a>
+    </section>
+  </main>
+
+  <footer class="footer container">
+    <a class="brand" href="index.html"><span class="brand-mark">F</span><span>Funngro</span></a>
+    <p>Smart website concept • Opportunities page</p>
+    <a href="index.html">Back home ↑</a>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
